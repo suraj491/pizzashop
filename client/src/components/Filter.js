@@ -7,7 +7,7 @@ export default function Filter(){
     const[category,setcategory]=useState('all')
     return(
         <div className="container">
-            <div className="row shadow-lg p-3 mb-5 bg-white rounded">
+            <div className="row justify-content-center shadow-lg p-3 mb-5 bg-white rounded">
                 <div className="col-md-3">
                     <input onChange={(e)=>{setsearchkey(e.target.value)}}
                     value={searchkey} type="text" className="form-control" placeholder="search pizzas"/>
