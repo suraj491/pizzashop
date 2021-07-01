@@ -66,3 +66,13 @@ input{
 td,th,tr{
   text-align: left;
 }
+.dot{
+  height: 25px;
+  width: 25px;
+  background-color:rgb(245, 5, 5);
+  border-radius: 50%;
+  display: inline-block;
+}
+.textcolor{
+  color:white;
+}
